@@ -1,0 +1,9 @@
+{
+  "name": "project.json",
+  "version": "1",
+  "description": "JS Tableau initegration",
+  "main": "index.js",
+  "repository": "https://github.com/AnkitaDewan/tableau-extensions-tutorial-part-one",
+  "author": "Ankita Dewan",
+  "license": "MIT"
+}
