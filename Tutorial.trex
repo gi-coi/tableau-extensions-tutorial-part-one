@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  
+  <!--The dashboard-extension includes the ID attribute WHICH follows the REVERSE domain name pattern (com.example.extension)--> 
   <dashboard-extension id="com.tableaumagic" extension-version="0.1.3">
+    
     <default-locale>en_US</default-locale>
     <name resource-id=""/>
     <description>Tableau Data Extension Part One</description>
     <author name="Your Name" email="Your Email" organization="Your Org" website="https://www.tableaumagic.com"/>
     <min-api-version>0.9</min-api-version>
+    
+    <!--Insert localhost OR server address here-->
     <source-location>
       <url>http://localhost:8080</url>
     </source-location>
+    
     <icon></icon>
     <permissions>
       <permission>full data</permission>
